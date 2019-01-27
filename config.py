@@ -9,6 +9,6 @@ class Config(object):
     WIKI_INSTALL_URL = os.environ.get('WIKI_INSTALL_URL', 'https://wiki.lineageos.org/devices/{device}/install')
     WIKI_INFO_URL = os.environ.get('WIKI_INFO_URL', 'https://wiki.lineageos.org/devices/{device}')
 
-    UPSTREAM_URL = os.environ.get('UPSTREAM_URL', 'http://www.theflamingskull.com/builds.json')
-    DOWNLOAD_BASE_URL = os.environ.get('DOWNLOAD_BASE_URL', 'http://www.theflamingskull.com/builds/')
+    UPSTREAM_URL = os.environ.get('UPSTREAM_URL', 'https://www.theflamingskull.com/builds.json')
+    DOWNLOAD_BASE_URL = os.environ.get('DOWNLOAD_BASE_URL', 'https://www.theflamingskull.com/builds/')
     EXTRAS_BLOB = os.environ.get('EXTRAS_BLOB', 'extras.json')
